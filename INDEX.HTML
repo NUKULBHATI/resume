@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NUKUL BHATI — Web Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:ital,wght@0,300;0,400;1,300&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="INDEX.CSS" />
+</head>
+<body>
+
+<!-- Cursor -->
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<!-- NAV -->
+<nav id="nav">
+  <div class="nav-logo">NB.</div>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="grid-bg"></div>
+  <div class="orb orb1"></div>
+  <div class="orb orb2"></div>
+  <div class="orb orb3"></div>
+
+  <div style="position:relative;z-index:2;">
+    <div class="hero-tag">Available for Internships & Projects</div>
+    <h1 class="hero-name">
+      <span class="filled">NUKUL</span>
+      <span class="outline">Bhati</span>
+    </h1>
+    <p class="hero-desc">
+      A <strong>2nd-year CSE student</strong> who builds fast, beautiful web experiences. Passionate about design systems, and turning ideas into pixel-perfect products.
+    </p>
+    <div class="hero-cta">
+      <a href="#projects" class="btn-primary">View My Work</a>
+      <a href="#contact" class="btn-secondary">Get In Touch</a>
+    </div>
+  </div>
+
+  <div class="hero-scroll">
+    <div class="scroll-line"></div>
+    Scroll
+  </div>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee-wrap">
+  <div class="marquee-track" id="marqueeTrack"></div>
+</div>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="section-label">About <span>/ 01</span></div>
+  <div class="about-grid">
+    <div class="about-text reveal">
+      <h2 class="section-title">Building the web,<br/>one commit<br/>at a time.</h2>
+      <p>Hey! I'm Nukul, a <strong>Computer Science student</strong> at NOIDA INTERNATIONAL UNIVERSITY with a deep love for development. I started building websites at 18 and haven't stopped since.</p>
+      <p>I specialize in crafting <strong>web applications</strong> with intuitive UX and clean code. When I'm not studying, you'll find me contributing to open source, solving DSA problems, or exploring the latest CSS tricks.</p>
+      <p>Currently seeking <strong>internship opportunities</strong> where I can contribute, learn, and ship real products.</p>
+      <div class="about-stats">
+        <div class="stat-card">
+          <div class="stat-number" data-count="5">0</div>
+          <div class="stat-label">Projects Built</div>
+        </div>
+        <!-- <div class="stat-card">
+          <div class="stat-number" data-count="800">0</div>
+          <div class="stat-label">GitHub Commits</div>
+        </div> -->
+        <!-- <div class="stat-card">
+          <div class="stat-number" data-count="2">0</div>
+          <div class="stat-label">Hackathons</div>
+        </div> -->
+        <div class="stat-card">
+          <div class="stat-number" data-count="2">0</div>
+          <div class="stat-label">Years Coding</div>
+        </div>
+      </div>
+    </div>
+    <div class="about-image-wrap reveal reveal-delay-2">
+      <div class="about-photo">
+        <div class="photo-placeholder"><img src="WhatsApp Image 2026-06-03 at 1.35.02 PM.jpeg" alt="" srcset=""></div>
+      </div>
+      <!-- <div class="about-accent-box">
+        <div class="accent-box-text">Open to full-time roles from June 2026 →</div>
+      </div> -->
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section class="skills-section" id="skills">
+  <div class="section-label">Skills <span>/ 02</span></div>
+  <h2 class="section-title reveal">My Toolkit</h2>
+  <div class="skills-grid">
+    <div class="skill-item reveal">
+      <div class="skill-icon">⚛️</div>
+      <div class="skill-name">HTML/CSS</div>
+      <div class="skill-bar"><div class="skill-bar-fill" style="--target-width:92%"></div></div>
+      <div class="skill-pct">92%</div>
+    </div>
+    <div class="skill-item reveal reveal-delay-1">
+      <div class="skill-icon">🎨</div>
+      <div class="skill-name">TAILWIND CSS</div>
+      <div class="skill-bar"><div class="skill-bar-fill" style="--target-width:90%"></div></div>
+      <div class="skill-pct">90%</div>
+    </div>
+    <div class="skill-item reveal reveal-delay-2">
+      <div class="skill-icon">🟨</div>
+      <div class="skill-name">BOOTSTRAP</div>
+      <div class="skill-bar"><div class="skill-bar-fill" style="--target-width:90%"></div></div>
+      <div class="skill-pct">90%</div>
+    </div>
+    <div class="skill-item reveal reveal-delay-2">
+      <div class="skill-icon">🟨</div>
+      <div class="skill-name">JAVASCRIPT</div>
+      <div class="skill-bar"><div class="skill-bar-fill" style="--target-width:88%"></div></div>
+      <div class="skill-pct">88%</div>
+    </div>
+    <div class="skill-item reveal reveal-delay-3">
+      <div class="skill-icon">🔷</div>
+      <div class="skill-name">REACT</div>
+      <div class="skill-bar"><div class="skill-bar-fill" style="--target-width:72%"></div></div>
+      <div class="skill-pct">72%</div>
+    </div>
+    <!-- <div class="skill-item reveal">
+      <div class="skill-icon">🟢</div>
+      <div class="skill-name">Node.js</div>
+      <div class="skill-bar"><div class="skill-bar-fill" style="--target-width:70%"></div></div>
+      <div class="skill-pct">70%</div>
+    </div> -->
+    <!-- <div class="skill-item reveal reveal-delay-1">
+      <div class="skill-icon">🗄️</div>
+      <div class="skill-name">MongoDB</div>
+      <div class="skill-bar"><div class="skill-bar-fill" style="--target-width:65%"></div></div>
+      <div class="skill-pct">65%</div>
+    </div> -->
+    <div class="skill-item reveal reveal-delay-2">
+      <div class="skill-icon">🐙</div>
+      <div class="skill-name">GIT & GITHUB</div>
+      <div class="skill-bar"><div class="skill-bar-fill" style="--target-width:85%"></div></div>
+      <div class="skill-pct">85%</div>
+    </div>
+    <div class="skill-item reveal reveal-delay-3">
+      <div class="skill-icon">▲</div>
+      <div class="skill-name">JAVA</div>
+      <div class="skill-bar"><div class="skill-bar-fill" style="--target-width:75%"></div></div>
+      <div class="skill-pct">75%</div>
+      <div class="edu-badge">Currently Exploring</div>
+    </div>
+    <!-- <div class="skill-item reveal">
+      <div class="skill-icon">🎭</div>
+      <div class="skill-name">Framer Motion</div>
+      <div class="skill-bar"><div class="skill-bar-fill" style="--target-width:68%"></div></div>
+      <div class="skill-pct">68%</div>
+    </div> -->
+
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="section-label">Projects <span>/ 03</span></div>
+  <h2 class="section-title reveal">Things I've Built</h2>
+  <div class="projects-grid">
+
+    <!-- Featured -->
+    <div class="project-card featured reveal">
+      <div>
+        <div class="project-number">01 — Featured</div>
+        <h3 class="project-title">DICE - GAME</h3>
+        <p class="project-desc">Dice Game is a simple and interactive web-based game built using REACT JS and TAILWIND CSS. The game simulates the experience of rolling a real dice. The objective of the game is to roll the dice and accumulate points, with the player reaching the winning score first being declared the winner.</p>
+        <div class="project-tags">
+          <span class="tag">React js</span>
+          <!-- <span class="tag">Node.js</span>
+          <span class="tag">Socket.io</span>
+          <span class="tag">MongoDB</span> -->
+          <span class="tag">Tailwind css</span>
+        </div>
+        <a href="https://nukulbhati.github.io/DICE-GAME/" class="project-link" target="_blank">View Project <span>→</span></a>
+         <!-- <a href="https://nukulbhati.github.io/DICE-GAME/" target="_blank" class="project-link">Live Demo</a> -->
+      </div>
+      <div class="project-visual">
+        <!-- <div class="visual-dots"></div> -->
+        <!-- <div class="visual-content">📊</div> -->
+         <img class="fitimg" src="Screenshot 2026-03-19 130207.png" alt="" srcset="">
+      </div>
+    </div>
+
+    <div class="project-card reveal">
+      <div class="project-number">02</div>
+      <h3 class="project-title">Sky-Sense</h3>
+      <p class="project-desc">Developed a responsive weather web application that provides real-time weather updates for any location worldwide. The application allows users to search for cities and view detailed weather information including temperature, humidity, wind speed, and overall weather conditions.</p>
+      <div class="project-tags">
+        <span class="tag">React</span>
+        <span class="tag">OpenWeather API</span>
+        <span class="tag">HTML/CSS</span>
+      </div>
+      <a href="https://nukulbhati.github.io/WEATHER-WEB/" class="project-link" target="_blank">View Project <span>→</span></a>
+    </div>
+
+    <div class="project-card reveal reveal-delay-1">
+      <div class="project-number">03</div>
+      <h3 class="project-title">TIP-Calculator</h3>
+      <p class="project-desc">Developed a simple and efficient tip calculator web application that helps users quickly calculate tips and split bills among multiple people. The application allows users to enter the total bill amount, select a tip percentage, and specify the number of people to instantly get the amount each person needs to pay.</p>
+      <div class="project-tags">
+        <span class="tag">HTML/CSS</span>
+        <span class="tag">Tailwind</span>
+        <span class="tag">Javascript</span>
+      </div>
+      <a href="https://nukulbhati.github.io/nb-tip-calculator/" class="project-link" target="_blank">View on GitHub <span>→</span></a>
+    </div>
+
+    <div class="project-card reveal">
+      <div class="project-number">04</div>
+      <h3 class="project-title">Y-Planner</h3>
+      <p class="project-desc">Developed a dynamic to-do list web application that helps users organize and manage their daily tasks efficiently. The application allows users to add, delete, and mark tasks as completed, providing a simple and productive way to track progress.</p>
+      <div class="project-tags">
+        <span class="tag">React</span>
+        <span class="tag">HTML/CSS</span>
+        <span class="tag">Javascript</span>
+      </div>
+      <a href=" https://nukulbhati.github.io/todo-list/" class="project-link" target="_blank">View Project <span>→</span></a>
+    </div>
+
+    <div class="project-card reveal reveal-delay-1">
+      <div class="project-number">05</div>
+      <h3 class="project-title">YourGrapher</h3>
+      <p class="project-desc">Developed a Basic and responsive photography website frontpage, designed to showcase creative photography work in an attractive and professional layout.The project features a structured layout with sections for showcasing images, navigation, and content presentation.</p>
+      <div class="project-tags">
+        <span class="tag">Bootstrap</span>
+        <span class="tag">HTML</span>
+      </div>
+      <a href="https://nukulbhati.github.io/YourGrapherBootstrap.com/practice.html" class="project-link" target="_blank">View Project <span>→</span></a>
+    </div>
+
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section class="edu-section" id="education">
+  <div class="section-label">Education <span>/ 04</span></div>
+  <h2 class="section-title reveal">Academic Journey</h2>
+
+  <div class="edu-card reveal">
+    <div class="edu-year">2024 — 2028</div>
+    <div>
+      <div class="edu-degree">B.Tech, Computer Science & Engineering</div>
+      <div class="edu-school">NOIDA INTERNATIONAL UNIVERSITY • Greater Noida, UP, India</div>
+      <p class="edu-desc">Pursuing a 4-year degree with focus on data structures, algorithms, and web technologies. Active member of the coding club and technical fest organizing committee. CGPA: 9/10</p>
+    </div>
+    <div class="edu-badge">Currently Enrolled</div>
+  </div>
+
+  <div class="edu-card reveal reveal-delay-1">
+    <div class="edu-year">2022 — 2024</div>
+    <div>
+      <div class="edu-degree">Senior Secondary, Science Stream</div>
+      <div class="edu-school">JBM PUBLIC SCHOOL, Palam Colony • New Delhi</div>
+      <p class="edu-desc">Completed 12th with PCM. Scored 80% in CBSE boards.</p>
+    </div>
+  </div>
+
+  <!-- <div class="edu-card reveal reveal-delay-2">
+    <div class="edu-year">2023</div>
+    <div>
+      <div class="edu-degree">Meta Front-End Developer Certificate</div>
+      <div class="edu-school">Coursera • Meta / Facebook</div>
+      <p class="edu-desc">Completed 9-course professional certificate covering React, UX design principles, version control, and testing methodologies. Final grade: 97%.</p>
+    </div>
+    <div class="edu-badge">Certified</div>
+  </div> -->
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="contact-inner">
+    <div class="section-label">Contact <span>/ 05</span></div>
+    <h2 class="section-title reveal">Let's Work Together</h2>
+    <p class="reveal" style="color:var(--muted);font-size:1rem;line-height:1.7;font-weight:300;margin-bottom:1rem;">
+      Whether it's an internship, a freelance project, or just a chat about React — my inbox is always open.
+    </p>
+    <a href="#" class="contact-email reveal">nukulbhati@gmail.com</a>
+    <div class="social-links reveal">
+      <a href="https://github.com/NUKULBHATI" class="social-link">GitHub</a>
+      <!-- <a href="#" class="social-link">LinkedIn</a>
+      <a href="#" class="social-link">Twitter</a>
+      <a href="#" class="social-link">Resume</a> -->
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-text">© 2026 <span class="footer-accent">NUKUL BHATI</span> — Crafted with HTML, CSS and JAVASCRIPT</div>
+  <div class="footer-text">Delhi, India <span class="footer-accent">•</span> Open to Remote</div>
+</footer>
+
+<script src="INDEX.JS"></script>
+
+</body>
+</html>
